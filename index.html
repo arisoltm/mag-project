@@ -138,7 +138,8 @@
             Поділися, будь ласка, поштою та знайди Магу роботу
           </h3>
 
-          <form class="cta-form" method="POST" Netlify>
+          <form class="cta-form" method="POST" netlify>
+            <input type="hidden" name="form-name" value="cta-form" />
             <label class="cta-label">
               <input
                 class="cta-form-field"
@@ -152,6 +153,7 @@
               <input
                 class="cta-form-field"
                 type="email"
+                name="email"
                 placeholder="Пошта"
               />
             </label>
